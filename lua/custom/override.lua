@@ -21,6 +21,10 @@ M.nvimtree = {
    git = {
       enable = true,
    },
+   view = {
+      side = "right",
+      width = 30,
+   },
 }
 
 M.blankline = {

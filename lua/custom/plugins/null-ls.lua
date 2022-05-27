@@ -12,6 +12,7 @@ local sources = {
    b.diagnostics.write_good,
    b.diagnostics.eslint,
    b.diagnostics.tsc,
+   b.formatting.dart_format,
 
    -- Lua
    b.formatting.stylua,
