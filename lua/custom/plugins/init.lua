@@ -44,4 +44,14 @@ return {
          require("nvim-treesitter.configs").setup()
       end,
    },
+   ["natebosch/vim-lsc"] = {},
+   ["natebosch/vim-lsc-dart"] = {},
+   ["dart-lang/dart-vim-plugin"] = {},
+   ["nvim-lua/plenary.nvim"] = {},
+   ["akinsho/flutter-tools.nvim"] = {
+      config = function ()
+        require("flutter-tools").setup{} -- use defaults
+      end
+   },
+
 }
